@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "q1yUWlmK1cAEfPNlQLTe5rNj4ethEn/23UYez3JL6Xm92KisxmCdFu8XSGuoedP8a3goHvOdGqmH98I/JSC6kA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stark\\Documents\\Documents\\GitHub\\VS Projects\\C#\\DOG\\DOG\\DOG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stark\\.nuget\\packages\\awssdk\\2.3.55.2\\awssdk.2.3.55.2.nupkg.sha512",
+    "C:\\Users\\Stark\\.nuget\\packages\\documentformat.openxml\\2.20.0\\documentformat.openxml.2.20.0.nupkg.sha512",
+    "C:\\Users\\Stark\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AWSSDK 2.3.55.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

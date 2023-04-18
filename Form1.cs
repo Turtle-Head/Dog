@@ -14,7 +14,10 @@ namespace DOG
             output.Text += $"{Jeff.Name} is a {Jeff.Age} year old {Jeff.Breed}\n";
             output.Text += Jeff.Bark();
             output.Text += Jeff.WagTail();
-            Dog Randal = new("Randal",90,"Rotweiller");
+            Dog Randal = new Dog("Randal",1000,"Rotweiller");
+            Randal.Name = "Ralph";
+            Randal.Age = -999999;
+            Randal.Breed = "Doberman";
             output.Text += $"{Randal.Name} is a {Randal.Age} year old {Randal.Breed}\n";
             output.Text += Randal.Bark();
             output.Text += Randal.WagTail();

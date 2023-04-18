@@ -23,7 +23,7 @@ namespace DOG
         public int Age { get { return _age; } set {
                 if (value < 0 || value > 25)
                 {
-                    _age = 0;
+                    _age = 1;
                 }
                 else _age = value;
                 } 
