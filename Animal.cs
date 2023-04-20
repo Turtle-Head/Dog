@@ -20,7 +20,7 @@ namespace DOG
         {
             this._Name = name;
             this._Breed = breed;
-            this._Age = age;
+            this._Age = age + 1;
             this._Species = species;
             this._Mood = mood;
         }
@@ -36,7 +36,7 @@ namespace DOG
                 {
                     _Age = 1;
                 }
-                else _Age = 1+ value;
+                else _Age = 1 + value;
             }
         }
         public string Breed { get { return _Breed; } set { _Breed = value; } }
@@ -45,7 +45,7 @@ namespace DOG
             return ($"{_Name} the {_Species} is eating... Munch munch crunch crunch \n");
         }
 
-        public string Sleeping => $"{_Name} the {_Species} is sleeping... \n";
+        internal virtual string Sleeping => $"{_Name} the {_Species} is sleeping... \n";
 
 
         public string Mood

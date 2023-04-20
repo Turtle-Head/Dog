@@ -20,11 +20,11 @@ namespace DOG
             Animal[] Kingdom = new Animal[4];
             Kingdom[0] = new Dog("Jeff", 2, "Labrador retriever", "Dog", "happy");
             Kingdom[1] = new Cat("Patty", 3, "Manx", "Cat", "happy");
-            Kingdom[2] = new Dog("Randal", 10000, "Rotweiller", "Dog", "ornery");
-            Kingdom[3] = new Cat("Thomas O'malley", 9, "Tabby", "Cat", "bored");
+            Kingdom[2] = new Dog("Randal", 10000, "Doberman", "Dog", "ornery");
+            Kingdom[3] = new Cat("Thomas O'malley", 8, "Tabby", "Cat", "bored");
             Kingdom[2].Name = "Mr.T";
             Kingdom[2].Age = -999999;
-            Kingdom[2].Breed = "Doberman";
+            Kingdom[2].Breed = "Rotweiler";
 
             for (int i = 0; i < 4; i++)
             {
