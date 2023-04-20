@@ -10,11 +10,11 @@ namespace DOG
     {
 
         //fields
-        protected string _Name;
-        protected int _Age;
-        protected string _Breed;
+        private string _Name;
+        private int _Age;
+        public string _Breed;
         protected string _Species;
-        protected string _Mood;
+        public string _Mood;
 
         public Animal(string name, int age, string breed, string species, string mood)
         {
@@ -36,7 +36,7 @@ namespace DOG
                 {
                     _Age = 1;
                 }
-                else _Age = value;
+                else _Age = 1+ value;
             }
         }
         public string Breed { get { return _Breed; } set { _Breed = value; } }
@@ -45,14 +45,12 @@ namespace DOG
             return ($"{_Name} the {_Species} is eating... Munch munch crunch crunch \n");
         }
 
-        public virtual string Sleeping()
-        {
-            return ($"{_Name} the {_Species} is sleeping... \n");
-        }
+        public string Sleeping => $"{_Name} the {_Species} is sleeping... \n";
+
 
         public string Mood
         {
-            get { return _Mood; }
+            get => _Mood;
             set { _Mood = value; }
         }
         public string Bark()
@@ -80,3 +78,4 @@ namespace DOG
 
     }
 }
+

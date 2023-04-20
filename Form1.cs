@@ -18,10 +18,10 @@ namespace DOG
         private void Form1_Load(object sender, EventArgs e)
         {
             Animal[] Kingdom = new Animal[4];
-            Kingdom[0] = new Dog("Jeff", 5, "Labrador retriever", "Dog", "happy");
-            Kingdom[1] = new Cat("Patty", 5, "Manx", "Cat", "happy");
-            Kingdom[2] = new Dog("Randal", 1000, "Rotweiller", "Dog", "ornery");
-            Kingdom[3] = new Cat("Thomas O'malley", 2, "Tabby", "Cat", "bored");
+            Kingdom[0] = new Dog("Jeff", 2, "Labrador retriever", "Dog", "happy");
+            Kingdom[1] = new Cat("Patty", 3, "Manx", "Cat", "happy");
+            Kingdom[2] = new Dog("Randal", 10000, "Rotweiller", "Dog", "ornery");
+            Kingdom[3] = new Cat("Thomas O'malley", 9, "Tabby", "Cat", "bored");
             Kingdom[2].Name = "Mr.T";
             Kingdom[2].Age = -999999;
             Kingdom[2].Breed = "Doberman";
@@ -35,7 +35,7 @@ namespace DOG
                     output.Text += Kingdom[i].Bark();
                     output.Text += Kingdom[i].WagTail();
                     output.Text += Kingdom[i].Eating();
-                    output.Text += Kingdom[i].Sleeping();
+                    output.Text += Kingdom[i].Sleeping;
                 }
                 else if (Kingdom[i].Species == "Cat")
                 {
@@ -44,7 +44,7 @@ namespace DOG
                     output.Text += Kingdom[i].Meow();
                     output.Text += Kingdom[i].Purr();
                     output.Text += Kingdom[i].Eating();
-                    output.Text += Kingdom[i].Sleeping();
+                    output.Text += Kingdom[i].Sleeping;
                 }
             }
 
