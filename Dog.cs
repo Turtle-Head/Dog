@@ -1,4 +1,5 @@
 ﻿using DocumentFormat.OpenXml.Office.CoverPageProps;
+using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.VisualBasic.Logging;
 using System;
 using System.Collections.Generic;
@@ -19,10 +20,13 @@ namespace DOG
 
         public object Species { get; internal set; }
 
-        //Methods
+        internal override string Sleeping(Animal animal)
+        {
+            return $"{Name} the {_Species} is sleeping... \n";
+        }
 
 
-}
+    }
     }
 
 

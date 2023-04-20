@@ -45,7 +45,7 @@ namespace DOG
             return ($"{_Name} the {_Species} is eating... Munch munch crunch crunch \n");
         }
 
-        internal virtual string Sleeping => $"{_Name} the {_Species} is sleeping... \n";
+        internal abstract string Sleeping(Animal animal); 
 
 
         public string Mood

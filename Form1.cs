@@ -35,7 +35,7 @@ namespace DOG
                     output.Text += Kingdom[i].Bark();
                     output.Text += Kingdom[i].WagTail();
                     output.Text += Kingdom[i].Eating();
-                    output.Text += Kingdom[i].Sleeping;
+                    output.Text += Kingdom[i].Sleeping(Kingdom[i]);
                 }
                 else if (Kingdom[i].Species == "Cat")
                 {
@@ -44,7 +44,7 @@ namespace DOG
                     output.Text += Kingdom[i].Meow();
                     output.Text += Kingdom[i].Purr();
                     output.Text += Kingdom[i].Eating();
-                    output.Text += Kingdom[i].Sleeping;
+                    output.Text += Kingdom[i].Sleeping(Kingdom[i]);
                 }
             }
 
