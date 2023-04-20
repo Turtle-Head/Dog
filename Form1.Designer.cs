@@ -33,9 +33,9 @@
             // 
             // output
             // 
-            output.Location = new Point(50, 45);
+            output.Location = new Point(12, 12);
             output.Name = "output";
-            output.Size = new Size(302, 152);
+            output.Size = new Size(374, 223);
             output.TabIndex = 0;
             output.Text = "";
             // 
@@ -46,7 +46,7 @@
             ClientSize = new Size(398, 247);
             Controls.Add(output);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Kingdom";
             Load += Form1_Load;
             ResumeLayout(false);
         }

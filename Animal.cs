@@ -40,12 +40,12 @@ namespace DOG
             }
         }
         public string Breed { get { return _Breed; } set { _Breed = value; } }
-        public string Eating()
+        public virtual string Eating()
         {
             return ($"{_Name} the {_Species} is eating... Munch munch crunch crunch \n");
         }
 
-        public string Sleeping()
+        public virtual string Sleeping()
         {
             return ($"{_Name} the {_Species} is sleeping... \n");
         }
